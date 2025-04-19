@@ -56,3 +56,10 @@ showSignup.addEventListener('click', () => {
 signupClose.addEventListener('click', () => {
    signup.classList.remove('show-login')
 })
+
+/* Show login from signup */
+const showLogin = document.getElementById('show-login')
+showLogin.addEventListener('click', () => {
+   signup.classList.remove('show-login')
+   login.classList.add('show-login')
+})
