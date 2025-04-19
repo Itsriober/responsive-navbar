@@ -115,16 +115,15 @@ img {
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px); /* For safari */
   padding: 8rem 1.5rem 0;
-  display: none;
-  opacity: 1;
+  opacity: 0;
   pointer-events: none;
-  transition: all .4s ease;
+  transition: opacity .4s;
 }
 
-.show-login {
-  display: block !important;
-  opacity: 1 !important;
-  pointer-events: auto !important;
+.show-login,
+.show-search {
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .search__close,
