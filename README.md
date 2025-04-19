@@ -40,4 +40,4 @@ A modern responsive navigation bar implementation with search and authentication
 
 ## Live Demo
 
-This project is hosted on Replit and can be viewed by clicking the "Run" button.
+<a href="https://responsive-navbar-lime.vercel.app/" target="_blank" style="text-decoration: none; color: orange; font-weight: 900;"> View Demo </a>
