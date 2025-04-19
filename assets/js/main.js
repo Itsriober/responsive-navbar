@@ -31,7 +31,10 @@ searchClose.addEventListener('click', () =>{
 /*=============== LOGIN ===============*/
 const login = document.getElementById('login'),
       loginBtn = document.getElementById('login-btn'),
-      loginClose = document.getElementById('login-close')
+      loginClose = document.getElementById('login-close'),
+      signup = document.getElementById('signup'),
+      showSignup = document.getElementById('show-signup'),
+      signupClose = document.getElementById('signup-close')
 
 /* Login show */
 loginBtn.addEventListener('click', () =>{
@@ -41,4 +44,15 @@ loginBtn.addEventListener('click', () =>{
 /* Login hidden */
 loginClose.addEventListener('click', () =>{
    login.classList.remove('show-login')
+})
+
+/* Show signup */
+showSignup.addEventListener('click', () => {
+   login.classList.remove('show-login')
+   signup.classList.add('show-login')
+})
+
+/* Signup hidden */
+signupClose.addEventListener('click', () => {
+   signup.classList.remove('show-login')
 })
